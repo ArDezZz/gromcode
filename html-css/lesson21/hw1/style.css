@@ -82,7 +82,7 @@ h1 {
 
 .nav-list-link {
     width: 100%;
-    display: inline-block;
+    display: block;
     padding: 0 0.5em;
     text-decoration: none;
     color: white;
