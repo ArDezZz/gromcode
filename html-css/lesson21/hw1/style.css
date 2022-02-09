@@ -81,7 +81,7 @@ h1 {
 }
 
 .nav-list-link {
-    display: block;
+    display: inline-block;
     height: 2em;
     padding: 0.5em;
     text-decoration: none;
