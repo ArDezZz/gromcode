@@ -74,16 +74,16 @@ h1 {
 }
 
 .nav-list-item {
-    display: block;
     background-color: #808080;
     color: white;
-    height: 2em;
+    line-height: 2em;
     margin-bottom: 0.5em;
 }
 
 .nav-list-link {
-    display: block;
-    padding: 0.5em;
+    width: 100%;
+    display: inline-block;
+    padding: 0 0.5em;
     text-decoration: none;
     color: white;
     overflow: hidden;
