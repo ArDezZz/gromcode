@@ -74,6 +74,7 @@ h1 {
 }
 
 .nav-list-item {
+    text-align: center;
     display: block;
     background-color: #808080;
     color: white;
