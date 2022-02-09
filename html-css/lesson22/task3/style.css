@@ -1,8 +1,9 @@
 main {
     display: flex;
+    justify-content: center;
 }
 
-picture {
+img {
     max-width: 100%;
     margin: auto;
 }
