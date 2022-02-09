@@ -31,21 +31,21 @@ html {
 }
 
 .navigation {
-    width: 20%;
+    width: 20vw;
     padding: 0.5em;
 }
 
 .nav-list-item {
     background-color: #808080;
     color: white;
-    height: 2em;
-    margin: 0.5em;
+    line-height: 2em;
+    margin-bottom: 0.5em;
 }
 
 .nav-list-link {
-    display: block;
+    display: inline-block;
     width: 100%;
-    padding: 0.5em;
+    padding: 0 0.5em;
     text-decoration: none;
     color: white;
     white-space: nowrap;
