@@ -74,14 +74,18 @@ h1 {
 }
 
 .nav-list-item {
+    display: block;
     background-color: #808080;
     color: white;
     height: 2em;
     margin-bottom: 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .nav-list-link {
-    display: inline-block;
+    display: block;
     height: 2em;
     padding: 0.5em;
     text-decoration: none;
