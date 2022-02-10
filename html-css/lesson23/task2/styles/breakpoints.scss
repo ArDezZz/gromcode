@@ -19,6 +19,12 @@ $lg: 1200px;
     }
 }
 
+@mixin for-medium-lagre-up {
+    @media screen and (min-width: $md) and (max-width: $lg) {
+        @content;
+    }
+}
+
 @mixin portrait {
     @media screen and (orientation: portrait) {
         @content;
