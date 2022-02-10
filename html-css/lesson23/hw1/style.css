@@ -13,8 +13,6 @@
     
     .menu__item {
         position: relative;
-        /* display: inline-block; */
-        /* display: block; */
         color: white;
         padding: 0 8px;
         line-height: 3em;
