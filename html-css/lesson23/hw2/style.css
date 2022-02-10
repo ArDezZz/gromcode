@@ -1,0 +1,54 @@
+/*>=600px*/
+/*>=1200*/
+.container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.navigation {
+  display: flex;
+  background-color: #ff7f50;
+  min-height: 200px;
+  flex: 1;
+}
+
+.news {
+  display: flex;
+  background-color: #0ff;
+  min-height: 200px;
+  flex: 1;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+@media screen and (min-width: 600px) {
+  .products {
+    flex-direction: row;
+  }
+}
+.products-list {
+  display: flex;
+  background-color: #006400;
+  min-height: 200px;
+  flex: 1;
+}
+
+span {
+  display: inline-block;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #faebd7;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: lowercase;
+}
+
+/*# sourceMappingURL=style.css.map */

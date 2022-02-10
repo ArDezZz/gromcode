@@ -1,0 +1,19 @@
+$mw: 600px;
+$lw: 1200px;
+
+/*>=600px*/
+
+@mixin medium-width {
+    @media screen and (min-width: $mw) {
+        @content;
+    }
+}
+
+
+/*>=1200*/
+
+@mixin lardge-width {
+    @media screen and (min-width: $lw) {
+        @content;
+    }
+}
