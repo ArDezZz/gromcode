@@ -36,6 +36,10 @@
   color: black;
 }
 
+.menu__item_active {
+  color: yellow;
+}
+
 .menu__item:hover {
   background-color: #9acd32;
 }
