@@ -15,8 +15,8 @@ function getSquard(number) {
 }
 console.log(getSquard(3));
 // function3
-function sum(a, b) {
-    return a + b;
+function sum(firstNum, secondNum) {
+    return firstNum + secondNum;
 }
 console.log(sum(3, 2));
 
