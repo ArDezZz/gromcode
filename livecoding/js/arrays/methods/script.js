@@ -1,7 +1,7 @@
 //===================filter================
 const anotherNumbersList = [5, 0, 8, 10, -4, 50, 220];
 
-//input: func
+//input: func, obj (optional)
 //output: arr
 
 //input: num, index (optonal), arr(optional)
