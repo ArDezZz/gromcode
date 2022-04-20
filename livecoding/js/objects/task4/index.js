@@ -1,17 +1,3 @@
-//input: obj1, obj2
-//output: boolean
-
-//algo
-//1. get keys, get values
-//2. check keys length
-//3. compare every key/value with .every method
-//**  compare key/value with .some method, is some not equal - false
-//====================1 option=========================
-// function compareObjects(obj1, obj2) {
-//   console.log(JSON.stringify(obj1));
-//   return JSON.stringify(obj1) === JSON.stringify(obj2);
-// }
-
 //===========================Mykola=========================
 //Norm
 // function compareObjects(obj1, obj2) {
@@ -193,35 +179,15 @@
 //   return !arr1.some((arr, index) => arr[0] != arr2[index][0] || arr[1] != arr2[index][1]);
 // }
 
-// examples
+//test data
 const obj1 = {
   name: 'Tom',
   age: 17,
-  last: 15,
 };
 
 const obj2 = {
-  name: 'Bob',
   age: 17,
-};
-
-const obj3 = {
-  name: 'Bob',
-  age: 17,
-  student: false,
-};
-
-const obj4 = {
   name: 'Tom',
-  age: 17,
-};
-const obj5 = {
-  name: 'Tom',
-  age: 17,
-  last: 15,
 };
 
-console.log(compareObjects(obj1, obj2)); // ==> false
-console.log(compareObjects(obj2, obj3)); // ==> false
-console.log(compareObjects(obj1, obj4)); // ==> false
-console.log(compareObjects(obj1, obj5)); // ==> true
+console.log(compareObjects(obj2, obj3));
